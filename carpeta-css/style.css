@@ -295,7 +295,7 @@
     .container-drake{
         width: 100%;
         display: flex;
-        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/drake-1.png);
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(../imgs/drake-1.png);
         color:#fff;
         height: 770px;
         background-size: cover;
@@ -333,7 +333,7 @@
     .container-future{
         width: 100%;
         display: flex;
-        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/future-1.jpeg);
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(../imgs/future-1.jpeg);
         color:#fff;
         height: 770px;
         background-size: cover;
@@ -370,7 +370,7 @@
     .container-dababy{
         width: 100%;
         display: flex;
-        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/dababy-new.jpeg);
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(../imgs/dababy-new.jpeg);
         color:#fff;
         height: 770px;
         background-size: cover;
@@ -407,7 +407,7 @@
     .container-kanye{
         width: 100%;
         display: flex;
-        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/kanye-1.jpeg);
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(../imgs/kanye-1.jpeg);
         color:#fff;
         height: 770px;
         background-size: cover;
