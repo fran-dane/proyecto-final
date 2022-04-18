@@ -1,0 +1,550 @@
+:root{
+    --main--color: ;
+    --footer--color:#363636;
+    }
+    /*General*/
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background: linear-gradient(90deg, rgba(112,94,113,1) 0%, rgba(227,195,227,1) 60%, rgba(255,252,254,1) 100%);
+    }
+    
+    /* --------------------------------- header --------------------------------- */
+    
+    .dropdown-item {
+        color: black;
+        transition: all .8s;
+    }
+
+    .dropdown-item:hover {
+        transition: all .8s ;
+        background-color: pink;
+        font-size: 18px;
+    }
+    
+    .carrousel-container {
+        background-color: linear-gradient(90deg, rgba(112,94,113,1) 0%, rgba(227,195,227,1) 60%, rgba(255,252,254,1) 100%);
+    }
+    
+    .carrousel-container .navbar .container-fluid .collapse .navbar-nav .nav-item {
+        transition: all .8s;
+    }
+    
+    .carrousel-container .navbar .container-fluid .collapse .navbar-nav .nav-item:hover {
+        transition: all .8s;
+        font-size: 18px;
+    }
+
+    form .boton-search {
+        color: white;
+        background-color: pink;
+        border-radius: 10%;
+        border: 1px solid palevioletred;
+    }
+
+    form .boton-search:hover {
+        color: rgb(176, 120, 176);
+        transition: all .8s;
+    }
+
+
+    /*
+    .navbar{
+        background: rgb(112,94,113);
+        background: linear-gradient(90deg, rgba(112,94,113,1) 0%, rgba(227,195,227,1) 60%, rgba(255,252,254,1) 100%);
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        align-items: center;
+        border: 1px solid rgb(247, 218, 251);
+    }
+    
+    .navbar .logo{
+        width: 60px;
+        height: 60px;
+        grid-column: 2 / 3;
+    }
+    
+    
+    .navbar .menu{
+        grid-column: 4 / 7;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    .navbar .menu li{
+        list-style: none;
+    }
+    
+    .navbar .menu a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .navbar .menu-bar{
+        display: none;
+    }
+    
+    .navbar .shopping{
+        grid-column: 8/9;
+    }
+    
+    */
+    
+    /*Container Hero*/
+    
+    .container-info{
+        width: 100%;
+        display: flex;
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/lollapalooza.png);
+        color:#fff;
+        height: 770px;
+        background-size: cover;
+        align-items: center;
+        justify-content: flex-end;
+    
+    }
+    
+    .info-items p{
+        margin-right: 40px;
+    }
+    
+    /* ------------------------- container ult lanzamientos ------------------------- */
+    
+    .container-info-2 {
+        width: 100%;
+        display: flex;
+        background-image:linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/duki-noticia-web.png);
+        color:#fff;
+        height: 770px;
+        background-size: cover;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    
+    }
+    
+    
+    .info-items-2 p {
+        margin-right: 40px;
+    }
+    
+    .info-items-2 a{
+        text-decoration: none;
+        color: #d87093;
+        
+    }
+    
+    .info-items-2 a:hover{
+        transition: all .8s;
+        color: deeppink;
+    }
+    
+    
+    /* ---------------------------- Section Container --------------------------- */
+    
+    .container-categoria{
+        background: linear-gradient(90deg, rgb(123, 63, 126) 0%, rgb(171, 127, 171) 60%, rgb(238, 193, 223) 100%);
+    
+    }
+    
+    .medio-categorias {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        background: linear-gradient(90deg, rgb(123, 63, 126) 0%, rgb(171, 127, 171) 60%, rgb(238, 193, 223) 100%);
+        padding-bottom: 110px;
+        border-bottom: 3px solid palevioletred;
+    }
+        
+    .medio-categorias a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    
+        
+    }
+    
+    #h3-categoria{
+        text-align:center;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        border-top: 3px solid palevioletred;
+        padding-top: 30px;
+    
+    }
+    
+    .nav-link2{
+        transition:all .3s;
+    }
+    
+    
+    .nav-link2:hover{
+        background-color:rgb(224, 145, 171) ;
+        border-radius: 10px;
+        padding: 20px 15px;
+    }
+    
+    
+    
+    
+    /* ----------------------------- Section Footer ----------------------------- */
+    
+    .pie-pagina{
+        width: 100%;
+        background-color:#e2dedede;
+        margin-top: 50px;
+        border-top: 4px solid palevioletred;
+    }
+    
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    
+    .pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pie-pagina .grupo-1 .box figure img{
+        width: 150px;
+    }
+    
+    .pie-pagina .grupo-1 .box h2{
+        color: black;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    
+    .pie-pagina .grupo-1 .box h5{
+        color: black;
+        margin-bottom: 10px;
+    }
+    
+    .pie-pagina .grupo-1 .box h6{
+        color: black;
+        margin-bottom: 10px;
+    }
+    
+    .redes-sociales a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin-right: 10px;
+        text-align: center;
+        color: black;
+        transition:all .3s;
+    }
+    
+    .redes-sociales a:hover{
+        color: #d87093;
+    }
+    
+    .pie-pagina .grupo-2{
+        background-color: palevioletred;
+        padding: 15px 10px;
+        text-align: center;
+        color: black;
+    
+    }
+    
+    .pie-pagina .grupo-2 small{
+        font-size: 15px;
+    }
+    @media screen and (max-width:800px) {
+        .pie-pagina .grupo-1 {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+        }
+    }
+    
+    
+    /* -------------------------------- artistas -------------------------------- */
+    
+    .info-artistas{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    /* ---------------------------------- drake --------------------------------- */
+    
+    .container-drake{
+        width: 100%;
+        display: flex;
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/drake-1.png);
+        color:#fff;
+        height: 770px;
+        background-size: cover;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .info-drake a{
+        font-size: 50px;
+        text-align:center;
+        list-style: none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        transition: all .8s;
+    }
+    
+    .info-drake a:hover{
+        color: rgb(218, 182, 116);
+        transition: all .8s;
+    }
+    
+    
+    .info-drake p{
+        font-size: 25px;
+        text-align:center;
+        margin: 0 10px;
+    }
+    
+    /* -------------------------------- fin drake ------------------------------- */
+    
+    /* --------------------------------- future --------------------------------- */
+    
+    .container-future{
+        width: 100%;
+        display: flex;
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/future-1.jpeg);
+        color:#fff;
+        height: 770px;
+        background-size: cover;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .info-future a{
+        font-size: 50px;
+        text-align:center;
+        list-style: none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        transition: all .8s;
+    }
+    
+    .info-future a:hover{
+        color:rgb(218, 182, 116);
+        transition: all .8s;
+    }
+    
+    .info-future p{
+        font-size: 25px;
+        text-align:center;
+        margin: 0 10px;
+    }
+    
+    /* ------------------------------- fin future ------------------------------- */
+    
+    /* --------------------------------- dababy --------------------------------- */
+    
+    .container-dababy{
+        width: 100%;
+        display: flex;
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/dababy-new.jpeg);
+        color:#fff;
+        height: 770px;
+        background-size: cover;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .info-dababy a{
+        font-size: 50px;
+        text-align:center;
+        list-style: none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        transition: all .8s;
+    }
+    
+    .info-dababy a:hover{
+        color:rgb(218, 182, 116);
+        transition: all .8s;
+    }
+    
+    .info-dababy p{
+        font-size: 25px;
+        text-align:center;
+        margin: 0 10px;
+    }
+    
+    /* ------------------------------- fin dababy ------------------------------- */
+    
+    /* ---------------------------------- kanye --------------------------------- */
+    
+    .container-kanye{
+        width: 100%;
+        display: flex;
+        background-image: linear-gradient(rgba(16,16,16, .8),rgba(16,16,16, .8)), url(/imgs/kanye-1.jpeg);
+        color:#fff;
+        height: 770px;
+        background-size: cover;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .info-kanye a{
+        font-size: 50px;
+        text-align:center;
+        list-style: none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        transition: all .8s;
+    }
+    
+    .info-kanye a:hover{
+        color:rgb(218, 182, 116);
+        transition: all .8s;
+    }
+    
+    .info-kanye p{
+        font-size: 25px;
+        text-align:center;
+        margin: 0 10px;
+    }
+    
+    /* -------------------------------- fin kanye ------------------------------- */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* ------------------------------- conciertos ------------------------------- */
+    
+    .titulo-principal-conciertos{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contenedor-padre-conciertos {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 0;
+    
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 10px;
+    }
+    
+    .titulo {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+    
+    .contenedor-hijo-conciertos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    
+    .card {
+        border-radius: 10px;
+        min-height: 200px;
+        font-weight: bold;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center center;
+    
+        
+    }
+    
+    .card .textos {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        color: #fff;
+        
+        
+    }
+    
+    .banner-conciertos {
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+    
+        display: grid;
+        grid-template-rows: auto auto auto;
+        align-items: center;    
+    
+    }
+    
+    .banner-conciertos ul {
+        list-style: none;
+    }
+    
+    .banner-conciertos ul li {
+        margin: 15px;
+        font-weight: bold;
+    }
+    
+    .banner-conciertos .boton-conciertos {
+        background: #489ed8;
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-radius: 100px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    
+    .banner-conciertos .boton-conciertos a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .banner-conciertos .boton-conciertos a:hover{
+        color: #fff;
+        transition: all .8s;
+    }
