@@ -54,49 +54,172 @@
     }
 
 
-    /*
-    .navbar{
-        background: rgb(112,94,113);
-        background: linear-gradient(90deg, rgba(112,94,113,1) 0%, rgba(227,195,227,1) 60%, rgba(255,252,254,1) 100%);
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        align-items: center;
-        border: 1px solid rgb(247, 218, 251);
+/* -------------------- seccion subscripcion | membresia -------------------- */
+
+.subs {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(112,94,113,1) 0%, rgba(227,195,227,1) 60%, rgba(255,252,254,1) 100%);
+}
+
+
+
+.container-subs {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+
+.container-subs .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.container-subs .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(90deg, rgba(112,94,113,1) 0%, rgba(227,195,227,1) 60%, rgba(255,252,254,1) 100%);
+}
+
+
+.container-subs form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% /2 - 20px);
+}
+
+form .user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 3px;
+    transition: all .8s ease;
+}
+
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: palevioletred;
+
+}
+
+
+form .gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender-details .category {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+.gender-details .category label {
+    display: flex;
+    align-items: center;
+}
+
+.gender-details .category .dot {
+    height: 18px;
+    width: 18px;
+    background: rgb(219, 187, 227);
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+}
+
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three {
+    border-color: #d87093;
+    background: rgb(219, 187, 227);
+
+}
+
+form input[type="radio"] {
+    display:  none;
+}
+
+
+
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: rgb(219, 187, 227);
+
+}
+
+
+form .button input:hover {
+    background: linear-gradient(90deg, rgba(112,94,113,1) 0%, rgba(227,195,227,1) 60%, rgba(255,252,254,1) 100%);
+
+}
+
+@media (max-width: 584px) {
+    .container {
+        max-width: 700px;
+
     }
-    
-    .navbar .logo{
-        width: 60px;
-        height: 60px;
-        grid-column: 2 / 3;
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: 100% ;
     }
-    
-    
-    .navbar .menu{
-        grid-column: 4 / 7;
-        display: flex;
-        justify-content: space-around;
+    form .gender-details .category {
+        width: 100%;
     }
-    
-    
-    .navbar .menu li{
-        list-style: none;
+    .container-subs form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
     }
-    
-    .navbar .menu a{
-        text-decoration: none;
-        color: black;
+    .user-details::-webkit-scrollbar {
+        width: 0;
     }
-    
-    .navbar .menu-bar{
-        display: none;
-    }
-    
-    .navbar .shopping{
-        grid-column: 8/9;
-    }
-    
-    */
-    
+}
+
     /*Container Hero*/
     
     .container-info{
