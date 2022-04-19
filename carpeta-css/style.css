@@ -56,6 +56,23 @@
 
 /* -------------------- seccion subscripcion | membresia -------------------- */
 
+.titulo-subs {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.parrafo-subs {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.parrafo-subs h4 {
+    font-size: 20px;
+}
+
+
 .subs {
     display: flex;
     height: 100vh;
@@ -671,3 +688,56 @@ form .button input:hover {
         color: #fff;
         transition: all .8s;
     }
+
+
+    /* -------------------------------- hit list -------------------------------- */
+
+.card-hits .body-card .text-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-hits .body-card .title-card {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-hits .card-img-top {
+    display: flex;
+    max-width: 1400px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.container-hits {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px ;
+}
+
+.container-hits .card {
+    background-color: rgb(219, 187, 227);
+}
+
+
+.container-hits .card .card-body .card-title {
+    font-size: 22PX;
+    font-weight: 900;
+}
+
+
+.container-hits .card-body a.btn-primary {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #d87093;
+    border: 1px solid black;
+    transition: all .8s;
+}
+
+.container-hits .card-body a.btn-primary:hover {
+    transition: all .8s ;
+    color: black ;
+    font-size: 18px;
+}
