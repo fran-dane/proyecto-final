@@ -620,27 +620,6 @@ form .button input:hover {
         gap: 10px;
     }
     
-    .card {
-        border-radius: 10px;
-        min-height: 200px;
-        font-weight: bold;
-        padding: 20px;
-        position: relative;
-        overflow: hidden;
-        background-size: cover;
-        background-position: center center;
-    
-        
-    }
-    
-    .card .textos {
-        height: 100%;
-        display: grid;
-        grid-template-rows: 1fr auto;
-        color: #fff;
-        
-        
-    }
     
     .banner-conciertos {
         border-radius: 10px;
@@ -692,51 +671,34 @@ form .button input:hover {
 
     /* -------------------------------- hit list -------------------------------- */
 
-.card-hits .body-card .text-card {
-    display: flex;
-    justify-content: center;
-}
+    .card {
+        color: #000;
+        background-color: pink;
+        
+    }
+    
+    .card .textos {
+        color: #fff;
+        
+        
+    }
 
-.card-hits .body-card .title-card {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
+    .container-hits .card-body a.btn-primary {
+        display: flex;
+        justify-content: center;
+        color: #000;
+        background-color: #d87093;
+        border: 1px solid black;
+        transition: all .8s;
+    }
 
-.card-hits .card-img-top {
-    width: 100%;
-    margin: 20px;
-    border: 1px solid black;
-}
-
-.container-hits {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 50px ;
-}
-
-.container-hits .card {
-    background-color: rgb(219, 187, 227);
-}
-
-
-.container-hits .card .card-body .card-title {
-    font-size: 22PX;
-    font-weight: 900;
-}
+    .container-hits .card-body a.btn-primary:hover {
+        transition: all .8s;
+        color: #fff;
+        font-size: 18px;
+    }
 
 
-.container-hits .card-body a.btn-primary {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    background-color: #d87093;
-    border: 1px solid black;
-    transition: all .8s;
-}
 
-.container-hits .card-body a.btn-primary:hover {
-    transition: all .8s ;
-    color: black ;
-    font-size: 18px;
-}
+
+    /* no utilizo css gracias a boostrap */
