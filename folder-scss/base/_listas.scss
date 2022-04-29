@@ -1,0 +1,27 @@
+/* --------------------------------- listas --------------------------------- */
+$colores:
+red,
+green,
+blue,
+yellow,
+gray,
+black,
+orange;
+
+$size:
+16px,
+18px,
+22px,
+36px,
+44px;
+
+
+.footer-text {
+    font-size: nth($size, 4);
+    color: nth($colores, 6);
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    font-size: nth($size, 3);
+    color: nth($colores, 6);
+}

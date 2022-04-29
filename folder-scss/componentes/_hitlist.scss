@@ -1,0 +1,30 @@
+    /* -------------------------------- hit list -------------------------------- */
+
+    .card {
+        color: #000;
+        background-color: pink;
+        
+    }
+    
+    .card .textos {
+        color: #fff;
+        
+        
+    }
+
+    .container-hits .card-body a.btn-primary {
+        display: flex;
+        justify-content: center;
+        color: #000;
+        background-color: #d87093;
+        border: 1px solid black;
+        transition: all .8s;
+    }
+
+    .container-hits .card-body a.btn-primary:hover {
+        transition: all .8s;
+        color: #fff;
+        font-size: 18px;
+    }
+
+/* ------------------------------- fin hitlist ------------------------------ */

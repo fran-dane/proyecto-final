@@ -1,0 +1,78 @@
+    /* ------------------------------- Conciertos ------------------------------- */
+    
+    .titulo-principal-conciertos{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contenedor-padre-conciertos {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 0;
+    
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 10px;
+    }
+    
+    .titulo {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+    
+    .contenedor-hijo-conciertos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    
+    
+    .banner-conciertos {
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+    
+        display: grid;
+        grid-template-rows: auto auto auto;
+        align-items: center;    
+    
+    }
+    
+    .banner-conciertos ul {
+        list-style: none;
+    }
+    
+    .banner-conciertos ul li {
+        margin: 15px;
+        font-weight: bold;
+    }
+    
+    .banner-conciertos .boton-conciertos {
+        background: #489ed8;
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-radius: 100px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    
+    .banner-conciertos .boton-conciertos a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .banner-conciertos .boton-conciertos a:hover{
+        color: #fff;
+        transition: all .8s;
+    }
+
+    /* ----------------------------- fin Conciertos ----------------------------- */

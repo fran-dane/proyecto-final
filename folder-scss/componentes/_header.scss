@@ -1,0 +1,39 @@
+    /* --------------------------------- header --------------------------------- */
+    
+    .dropdown-item {
+        color: black;
+        transition: all .8s;
+    }
+
+    .dropdown-item:hover {
+        transition: all .8s ;
+        background-color: pink;
+        font-size: 18px;
+    }
+    
+    .carrousel-container {
+        background-color: linear-gradient(90deg, rgba(112,94,113,1) 0%, rgba(227,195,227,1) 60%, rgba(255,252,254,1) 100%);
+    }
+    
+    .carrousel-container .navbar .container-fluid .collapse .navbar-nav .nav-item {
+        transition: all .8s;
+    }
+    
+    .carrousel-container .navbar .container-fluid .collapse .navbar-nav .nav-item:hover {
+        transition: all .8s;
+        font-size: 18px;
+    }
+
+    form .boton-search {
+        color: white;
+        background-color: pink;
+        border-radius: 10%;
+        border: 1px solid palevioletred;
+    }
+
+    form .boton-search:hover {
+        color: rgb(176, 120, 176);
+        transition: all .8s;
+    }
+
+/* ------------------------------- fin header ------------------------------- */

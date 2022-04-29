@@ -1,0 +1,13 @@
+/* --------------------------------- mixins --------------------------------- */
+@mixin derechos-footer {
+    font: {
+        family: Georgia;
+        size: 15px;
+        weight: bold;
+    }
+    color: black;
+}
+
+.grupo-2 .footer-text {
+    @include derechos-footer();
+}

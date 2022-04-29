@@ -1,0 +1,18 @@
+/* ---------------------------------- mapas --------------------------------- */
+$titulos : (
+    enorme: 4em,
+    grande: 3em,
+    normalito: 2em,
+    intermedio: 1.5em,
+    chico: 1em,
+    maschico: 0.75em,
+    muychico: 0.35em
+);
+
+h1 {
+    font-size: map-get($titulos, normalito);
+}
+
+h2 {
+    font-size: map-get($titulos, intermedio);
+}
