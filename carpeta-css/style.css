@@ -23,6 +23,7 @@ body {
 
 /* ------------------------------- fin general ------------------------------ */
 /* --------------------------------- header --------------------------------- */
+
 .dropdown-item {
   color: black;
   transition: all 0.8s;
@@ -36,7 +37,14 @@ body {
 
 .carrousel-container {
   background-color: linear-gradient(90deg, rgb(112, 94, 113) 0%, rgb(227, 195, 227) 60%, rgb(255, 252, 254) 100%);
+  position: relative;
+  z-index: 2;
 }
+
+.container-fluid {
+  background-color: linear-gradient(90deg, rgb(112, 94, 113) 0%, rgb(227, 195, 227) 60%, rgb(255, 252, 254) 100%);
+}
+
 
 .carrousel-container .navbar .container-fluid .collapse .navbar-nav .nav-item {
   transition: all 0.8s;
@@ -146,18 +154,40 @@ form .boton-search:hover {
 .container-info {
   width: 100%;
   display: flex;
-  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.8)), url(../imgs/lollapalooza.png);
   color: #fff;
   height: 770px;
   background-size: cover;
   align-items: center;
   justify-content: flex-end;
   margin-top: 50px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 2;
 }
 
-.info-items p {
+.info-items-2 p {
   margin-right: 40px;
+}
+
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
 }
 
 /* ------------------------- container ult lanzamientos ------------------------- */
@@ -171,7 +201,7 @@ form .boton-search:hover {
   align-items: center;
   justify-content: flex-end;
   margin-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .info-items-2 p {
