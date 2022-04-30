@@ -23,7 +23,6 @@ body {
 
 /* ------------------------------- fin general ------------------------------ */
 /* --------------------------------- header --------------------------------- */
-
 .dropdown-item {
   color: black;
   transition: all 0.8s;
@@ -37,14 +36,7 @@ body {
 
 .carrousel-container {
   background-color: linear-gradient(90deg, rgb(112, 94, 113) 0%, rgb(227, 195, 227) 60%, rgb(255, 252, 254) 100%);
-  position: relative;
-  z-index: 2;
 }
-
-.container-fluid {
-  background-color: linear-gradient(90deg, rgb(112, 94, 113) 0%, rgb(227, 195, 227) 60%, rgb(255, 252, 254) 100%);
-}
-
 
 .carrousel-container .navbar .container-fluid .collapse .navbar-nav .nav-item {
   transition: all 0.8s;
@@ -168,7 +160,6 @@ form .boton-search:hover {
 .info-items-2 p {
   margin-right: 40px;
 }
-
 
 video {
   position: absolute;
