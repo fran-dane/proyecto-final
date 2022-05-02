@@ -16,3 +16,7 @@ h1 {
 h2 {
     font-size: map-get($titulos, intermedio);
 }
+
+.titulo-subs {
+    font-size: map-get($titulos, normalito);
+}
