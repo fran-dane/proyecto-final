@@ -65,6 +65,7 @@
     font-size: 18px;
     font-weight: 600;
     text-align: center;
+    background-color: rgb(250, 160, 175);
     opacity: 0;
     transition: 0.6s;
     transition-property: opacity, transform;
@@ -78,7 +79,7 @@
 
 .more {
     position: absolute;
-    background: rgba(255,255,255,0.8);
+    background: pink;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -104,7 +105,7 @@
 
 .more .read-more:hover {
     transition: all .6s;
-    color: rgb(243, 186, 195);
+    color: palevioletred;
     font-size: 22px;
 }
 
@@ -120,7 +121,7 @@
 
 .more .icon-links i:hover {
     transition: all .8s;
-    color: pink;
+    color: palevioletred;
 }
 
 .more .icon-links a:not(:last-child) i {
@@ -128,7 +129,7 @@
 }
 
 
-/* ------------------------------- responsive ------------------------------- */
+/* ------------------------------- media queries ------------------------------- */
 
 @media (max-width: 1080px) {
     .image-cards {
@@ -145,4 +146,5 @@
     .more .read-more, .more .icon-links a i {
         font-size: 18px;
     }
+
 }
