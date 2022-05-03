@@ -1,7 +1,7 @@
 {
   "name": "proyecto-final-desarrollo-web-fd",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">Hola 👋, Soy francisco</h1> <h3 align=\"center\">Un estudiante argentino de frontend developer</h3>",
+  "description": "<h1 align=\"center\">Hola 👋, Soy francisco</h1> <h3 align=\"center\">Un estudiante argentino de frontend developer y este es mi proyecto a lo largo de mi cursada den Desarrollo Web.</h3>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/fran-dane/proyecto-final/issues"
   },
-  "homepage": "https://github.com/fran-dane/proyecto-final#readme"
+  "homepage": "https://github.com/fran-dane/proyecto-final#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "sass": "^1.51.0"
+  }
 }

@@ -63,7 +63,7 @@ form .boton-search:hover {
 /* -----------------------------  Footer ----------------------------- */
 .pie-pagina {
   width: 100%;
-  background-color: rgba(226, 222, 222, 0.8705882353);
+  background-color: rgb(248, 212, 218);
   margin-top: 50px;
   border-top: 4px solid palevioletred;
 }
@@ -609,7 +609,6 @@ form .button input:hover {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  background-color: rgb(250, 160, 175);
   opacity: 0;
   transition: 0.6s;
   transition-property: opacity, transform;
