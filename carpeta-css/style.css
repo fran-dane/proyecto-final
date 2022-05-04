@@ -705,6 +705,10 @@ form .button input:hover {
   transition: all 0.8s;
 }
 
+.row {
+  margin: 0;
+}
+
 .container-hits .card-body a.btn-primary:hover {
   transition: all 0.8s;
   color: #fff;
