@@ -24,10 +24,19 @@
   }
 
 
-  .info-items a:hover {
-    transition: all 0.8s;
-    color: deeppink;
-    }
+.info-items a:hover {
+  transition: all 0.8s;
+  color: deeppink;
+  }
+
+.info-items .video-index-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.info-items .link-index-1 {
+  margin-left: 4px;
+}
 
 
 
@@ -48,11 +57,15 @@
     height: 770px;
     background-size: cover;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-top: 100px;
     margin-bottom: 50px;
     }
     
+    .info-items-2 {
+      margin-left: 20px;
+    }
+
     .info-items-2 p {
     margin-right: 40px;
     }
@@ -140,3 +153,6 @@
   }
 
   /* -------------------------------- fin index ------------------------------- */
+
+
+  /* -------------------------------- opiniones ------------------------------- */
