@@ -63,7 +63,7 @@ form .boton-search:hover {
 /* -----------------------------  Footer ----------------------------- */
 .pie-pagina {
   width: 100%;
-  background-color: pink;
+  background-color: rgb(251, 223, 227);
   margin-top: 50px;
   border-top: 2px solid black;
 }
@@ -227,8 +227,8 @@ form .boton-search:hover {
   padding: 1.5em 1em;
   border-radius: 4px;
   box-shadow: 1px 1px 10px -5px rgba(255, 255, 255, 0.5);
-  border: 2px solid palevioletred;
-  background: pink;
+  border: 2px solid gray;
+  background: rgb(187, 186, 186);
   color: #000;
 }
 
@@ -275,7 +275,7 @@ form .boton-search:hover {
 }
 
 .index-card-member {
-  color: rgb(148, 80, 103);
+  color: rgb(78, 78, 78);
 }
 
 /* -------------------------------- fin index ------------------------------- */
@@ -739,7 +739,7 @@ form .button input:hover {
 /* -------------------------------- hit list -------------------------------- */
 .card {
   color: #000;
-  background-color: pink;
+  background-color: rgb(248, 225, 229);
 }
 
 .card .textos {
@@ -750,7 +750,7 @@ form .button input:hover {
   display: flex;
   justify-content: center;
   color: #000;
-  background-color: #d87093;
+  background-color: #edb0c5;
   border: 1px solid black;
   transition: all 0.8s;
 }
