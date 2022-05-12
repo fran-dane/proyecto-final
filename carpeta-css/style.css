@@ -228,8 +228,12 @@ form .boton-search:hover {
   border-radius: 4px;
   box-shadow: 1px 1px 10px -5px rgba(255, 255, 255, 0.5);
   border: 2px solid gray;
-  background: rgb(187, 186, 186);
+  background: rgba(181, 27, 77, 0.26);
   color: #000;
+}
+
+.index-card-paragraph {
+  color: #fff;
 }
 
 .index-card-item--first {
@@ -272,14 +276,15 @@ form .boton-search:hover {
 .index-card-name {
   font-size: 1.2rem;
   font-family: var(--heading-font);
+  color: #fff;
 }
 
 .index-card-member {
-  color: rgb(78, 78, 78);
+  color: #a9a9ac;
 }
 
+/* ------------------------------ fin opiniones ----------------------------- */
 /* -------------------------------- fin index ------------------------------- */
-/* -------------------------------- opiniones ------------------------------- */
 /* -------------------- seccion subscripcion | membresia -------------------- */
 .titulo-subs {
   display: flex;
